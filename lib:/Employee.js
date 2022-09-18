@@ -1,6 +1,9 @@
 class Employee {
     constructor(name) {
-        this.types =['']
+        this.name =['name']
+    }
+    getName () {
+        return this.name;
     }
 }
 
